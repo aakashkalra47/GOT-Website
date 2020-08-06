@@ -1,0 +1,56 @@
+#content
+{
+	text-align: center;
+	padding-top: 0%;
+}
+.dropdown-menu
+{
+	background: rgba(3,3,3,.5);
+	color: white;
+}
+.h1
+{
+  font-family: "Times New Roman", Times, serif;
+}
+.table-d{
+	border: 1px solid black;
+	background-color:#b7bbbf;
+	color: black;
+
+}
+tr{
+	padding: 0px;
+	margin:0px;
+}
+th{
+	background-color:#38393a; 
+	color:white;	
+}
+.thumbnail:hover
+{
+	color: #3C3990;
+	transform: scale(1.1);
+}
+.hght
+{
+	height: 80%;
+}
+.prop{
+
+	color: #FFFFFF;
+}
+.dropdown-menu > li > a 
+{
+	color: white;
+}
+.dropdown-menu >li > a:hover
+{
+	transform: scale(1.2);
+}
+.targ{
+	color: #000000;
+}
+.peep:hover
+{
+
+color:#660000;}

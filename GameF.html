@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Game Of Thrones</title>
+    <link rel="icon" type="image/ico" href="icon.jpg">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="classes.css">
+<script>
+function getimagesrc()
+{
+  var i= Math.floor(Math.random() * 12) +1;
+  switch(i)
+  {
+    case 1:
+        document.getElementById('myImage').src="arya1.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got ARYA STARK! ";
+        break;
+    case 2:
+        document.getElementById('myImage').src="bran1.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got BRAN STARK! ";
+        break;
+    case 3:
+        document.getElementById('myImage').src="catylen1.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got CATELYN STARK! ";
+        break;
+    case 4:
+        document.getElementById('myImage').src="cersei1.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got CERSIE LANNISTER! ";
+        break;
+    case 5:
+        document.getElementById('myImage').src="deneras1.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got DANERYS TARGARYEN! ";
+        break;
+    case 6:
+        document.getElementById('myImage').src="hound1.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got  THE HOUND! ";
+        break;
+    case 7:
+        document.getElementById('myImage').src="jemmi1.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got  JAMMIE LANNISTER! ";
+        break;
+    case 8:
+        document.getElementById('myImage').src="joffrey1.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got  JOFFERY LANNISTER! ";
+        break;
+    case 9:
+        document.getElementById('myImage').src="jon1.jpg";
+        document.getElementById('text'). innerHTML="CONGRATULATIONS!! You got  JON SNOW! ";
+        break;
+    case 10:
+        document.getElementById('myImage').src="rob1.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got  ROB STARK! ";
+        break;
+    case 11:
+        document.getElementById('myImage').src="sansa1.jpg";
+        document.getElementById('text').innerHTML ="CONGRATULATIONS!! You got  SANSA STARK! ";
+        break;
+    case 12:
+        document.getElementById('myImage').src="tryin1.jpg";
+        document.getElementById('text').innerHTML ="CONGRATULATIONS!! You got  TYRION LANNISTER! ";
+        break;
+  }
+}
+</script>
+</head>
+<body >
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid" style="margin-right: 10px; margin-left:  10px;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-list" aria-expanded="false">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+            <a href="home.html" target="self" class="navbar-brand">Game Of Thrones</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-list">
+            <ul class="nav navbar-nav">
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">House <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="starkhouse.html" target="blank" >Stark</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="Targeriyan HOUSE.html" target="blank" >Targaryen</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="lannister.html" target="blank" >Lannister</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Barathion</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Arryn</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Tully</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Greyjoy</a></li>
+                </ul></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Characters <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="jonsnow.html" target="blank">Jon Snow</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="Denneris.html" target="blank">Daenerys Targaryen</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="aarya.html" target="blank">Arya Stark</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Sansa Stark</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Bran stark</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Cercie Lannister</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Jamie Lannister</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Tyrion Lannister</a></li>
+                </ul></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Books <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Game Of Thrones</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Clash Of Kings</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Storm of Swords</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Feast For Crows</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Dance Of Dragons</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Winds Of Winter</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Dream Of Spring</a></li>
+                </ul></li>
+            <li class="dropdown">
+                  <a href="Game.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Game <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="GameF.html" target="blank">Game of Faces</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="GameH.html" target="blank">Game of Houses</a></li>
+                </ul></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="joinhouse.html" target="blank">Join House</a></li>
+                <li><a href="login.html" target="blank">Enter House</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        <form class="navbar-form navbar-left">
+             <div class="form-group">
+               <input type="text" class="form-control" placeholder="Search">
+             </div>
+             <button type="submit" class="btn btn-default">Submit</button>
+         </form>
+        </div>
+    </div>
+    </nav>
+	<div class="jumbotron" style="border: 0px; margin-bottom:0px;margin-top: 50px; padding: 0px;">
+    	<div class="container-fluid" id="content" style="border: 0px; margin-bottom:0px; padding: 0px;">
+            	<div class="thumbnail" style="border: 0px; margin-bottom:0px; padding-bottom:0px; background-color: black;">
+                	<img src="faces.jpg">
+            	</div>
+        </div>
+    </div>
+     <div class="container-fluid" style="margin-top: 0px; margin-bottom:0px; background-image: url(gameFS.jpg)  " id="content">
+        <div class="col-lg-4 col-md-4">
+
+        </div>
+        <div class="col-lg-4 col-md-4" style="margin-top: 70px; margin-bottom:70px;">
+            <div class="thumbnail">
+                <img src="face gif.gif" id="myImage">
+                <h3 id="text">FIND OUT WHICH CHARACTER YOU ARE</h3>
+                <button  class="btn btn-primary" onclick="getimagesrc()"><h5>CLICK TO REVEAL</h5></button>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            </div>
+        </div>
+    </div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+</body>
+</html>
