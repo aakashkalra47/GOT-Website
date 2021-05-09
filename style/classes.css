@@ -30,6 +30,7 @@ th{
 {
 	color: #3C3990;
 	transform: scale(1.1);
+	transition: all 0.5s
 }
 .hght
 {
@@ -46,11 +47,12 @@ th{
 .dropdown-menu >li > a:hover
 {
 	transform: scale(1.2);
+	transition: all 0.5s
 }
 .targ{
 	color: #000000;
 }
 .peep:hover
 {
-
-color:#660000;}
+	color:#660000;
+}

@@ -2,11 +2,57 @@
 <html>
 <head>
     <title>A Game Of Thrones</title>
-    <link rel="icon" type="image/ico" href="./pictures/icon.jpg">
-    <link rel="stylesheet" type="text/css" href="./style/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./style/classes.css">
+    <link rel="icon" type="image/ico" href="../../pictures/icon.jpg">
+    <link rel="stylesheet" type="text/css" href="../../style/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../style/classes1.css">
+<script>
+function getimagesrc()
+{
+  var i= Math.floor(Math.random() * 9) +1;
+  switch(i)
+  {
+    case 1:
+        document.getElementById('myImage').src="../../pictures/arryn.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got HOUSE ARRYN! ";
+        break;
+    case 2:
+        document.getElementById('myImage').src="../../pictures/baratheon.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got HOUSE BARATHEION! ";
+        break;
+    case 3:
+        document.getElementById('myImage').src="../../pictures/greyjoy.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got HOUSE GREYJOY! ";
+        break;
+    case 4:
+        document.getElementById('myImage').src="../../pictures/lannister.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got HOUSE LANNISTER! ";
+        break;
+    case 5:
+        document.getElementById('myImage').src="../../pictures/martell.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got HOUSE MARTEL! ";
+        break;
+    case 6:
+        document.getElementById('myImage').src="../../pictures/stark.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got HOUSE STARK! ";
+        break;
+    case 7:
+        document.getElementById('myImage').src="../../pictures/targaryen.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got HOUSE TARGARYEN! ";
+        break;
+    case 8:
+        document.getElementById('myImage').src="../../pictures/tully.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got HOUSE TULLY! ";
+        break;
+    case 9:
+        document.getElementById('myImage').src="../../pictures/tyrell.jpg";
+        document.getElementById('text').innerHTML="CONGRATULATIONS!! You got HOUSE TYRELL! ";
+        break;
+        break;
+  }
+}
+</script>
 </head>
-<body style="background-image: url('./pictures/bg2.jpg');">
+<body >
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid" style="margin-right: 10px; margin-left:  10px;">
             <div class="navbar-header">
@@ -16,7 +62,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-                <a href="home.html" target="self" class="navbar-brand">Game Of Thrones</a>
+                <a href="../../home.html" target="self" class="navbar-brand">Game Of Thrones</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-list">
                 <ul class="nav navbar-nav">
@@ -24,11 +70,11 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">House <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="./components/Houses/starkhouse.html" target="blank" >Stark</a></li>
+                        <li><a href="../Houses/starkhouse.html" target="blank" >Stark</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="./components/Houses/Targeriyan HOUSE.html" target="blank" >Targaryen</a></li>
+                        <li><a href="../Houses/Targeriyan HOUSE.html" target="blank" >Targaryen</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="./components/Houses/lannister.html" target="blank" >Lannister</a></li>
+                        <li><a href="../Houses/lannister.html" target="blank" >Lannister</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Barathion</a></li>
                         <li role="separator" class="divider"></li>
@@ -41,11 +87,11 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Characters <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="./components/characters/jonsnow.html" target="blank">Jon Snow</a></li>
+                        <li><a href="../characters/jonsnow.html" target="blank">Jon Snow</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="./components/characters/Denneris.html" target="blank">Daenerys Targaryen</a></li>
+                        <li><a href="../characters/Denneris.html" target="blank">Daenerys Targaryen</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="./components/characters/aarya.html" target="blank">Arya Stark</a></li>
+                        <li><a href="../characters/aarya.html" target="blank">Arya Stark</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Sansa Stark</a></li>
                         <li role="separator" class="divider"></li>
@@ -75,16 +121,16 @@
                         <li><a href="#">Dream Of Spring</a></li>
                     </ul></li>
                 <li class="dropdown">
-                      <a href="./components/games/Game.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Game <span class="caret"></span></a>
+                      <a href="../games/Game.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Game <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="./components/games/GameF.html" target="blank">Game of Faces</a></li>
+                        <li><a href="../games/GameF.html" target="blank">Game of Faces</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="./components/games/GameH.html" target="blank">Game of Houses</a></li>
+                        <li><a href="../games/GameH.html" target="blank">Game of Houses</a></li>
                     </ul></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="./components/games/joinhouse.html" target="blank">Join House</a></li>
-                    <li><a href="login.html" target="blank">Enter House</a></li>
+                    <li><a href="../forms/joinhouse.html" target="blank">Join House</a></li>
+                    <li><a href="../forms/login.html" target="blank">Enter House</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
             <form class="navbar-form navbar-left">
@@ -96,103 +142,32 @@
             </div>
         </div>
     </nav>
-    <!----- nav bar ends----->
-    <div class="jumbotron" style="border: 0px; margin-bottom:70px; padding: 0px; ">
-        <div class="container-fluid"></div>
-        <div class="thumbnail" style="border: 0px; margin: 0px; padding: 0px; background-color: black;">
-                <img src="./pictures/profile.gif">
-            </div>
+	<div class="jumbotron" style="border: 0px; margin-bottom:0px;margin-top: 50px; padding: 0px;">
+    	<div class="container-fluid" id="content" style="border: 0px; margin-bottom:0px; padding: 0px;">
+            	<div class="thumbnail" style="border: 0px; margin-bottom:0px; padding-bottom:0px; background-color: black;">
+                	<img src="../../pictures/game of houses3.jpg">
+            	</div>
         </div>
     </div>
-    <div class="container" id="content">
+     <div class="container-fluid" style="margin-top: 0px; margin-bottom:0px; background-image: url(bg.jpg) " id="content">
         <div class="col-lg-4 col-md-4">
-           <a href="./components/Houses/starkhouse.html" target="blank">
-            <div class="thumbnail">
-                <img src="./pictures/house stark wolves.jpg">
-                <h1>HOUSE<br> STARK</h1>
-                <h4>WINTER IS COMMING</h4>
-            </div></a>
+
         </div>
-        <div class="col-lg-4 col-md-4">
-            <a href="./components/Houses/Targeriyan HOUSE.html" target="blank">
+        <div class="col-lg-4 col-md-4" style="margin-top: 70px; margin-bottom:70px;">
             <div class="thumbnail">
-                <img src="./pictures/house targaryen.jpg">
-                <h1>HOUSE TARGARYEN</h1>
-                <h4>FIRE AND BLOOD</h4>
-            </div></a>
+                <img src="../../pictures/game of houses gif.gif" id="myImage">
+                <h3 id="text">FIND OUT WHICH HOUSE YOU BELONG TO</h3>
+                <button  class="btn btn-primary" onclick="getimagesrc()"><h5>CLICK TO REVEAL</h5></button>
+            </div>
         </div>
         <div class="col-lg-4 col-md-4">
-            <a href="./components/Houses/lannister.html" target="blank">
-            <div class="thumbnail">
-                <img src="./pictures/house lannister.jpg">
-                <h1>HOUSE LANNISTER</h1>
-                <h4>HEAR ME ROAR</h4>
-            </div></a>
-        </div>
-    </div>
-    <div class="jumbotron" style="border: 70px; margin-bottom:50px; padding: 0px;">
-        <div class="container-fluid" id="content" style="border: 0px; margin: 0px; padding: 0px;">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="border: 0px; margin: 0px; padding: 0px;">
-                <a href="./components/Characters/Denneris.html" target="blank">
-                <div class="thumbnail" style="border: 0px; margin: 0px; padding: 0px;">
-                  <img src="./pictures/daenerys-targaryen-1.jpg">
-                </div>
-            </div></a>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="border: 0px; margin: 0px; padding: 0px;">
-                <a href="./components/Characters/jonsnow.html" target="blank">
-               <div class="thumbnail" style="border: 0px; margin: 0px; padding: 0px;">
-                    <img src="./pictures/jondp.jpg">
-                </div>
-            </div></a>
-        </div>
-    </div>
-    <div class="container" id="content">
-        <div class="col-lg-3 col-md-3 col-sm-6">
-            <a href="./components/Characters/aarya.html" target="blank">
-            <div class="thumbnail">
-                <img src="./pictures/arya-stark.jpg">
-                <h3>Arya Stark</h3>
-            </div>
-        </div></a>
-        <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="thumbnail">
-                <img src="./pictures/sersei.jpg">
-                <h3>Cersie Lannister</h3>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="thumbnail">
-                <img src="./pictures/sansa-stark.jpg">
-                <h3>Sansa Stark</h3>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="thumbnail">
-                <img src="./pictures/jamie.jpg">
-                <h3>Jaime Lannister</h3>
             </div>
         </div>
     </div>
-
-
-
-
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
-<script type="text/javascript" src="./js/bootstrap.js"></script>
+<script type="text/javascript" src="../../js/bootstrap.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
